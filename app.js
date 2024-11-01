@@ -1,6 +1,6 @@
 // app.js
 const express = require('express');
-const connection = require('./src/config/bDados'); // Configuração do MySQL
+const connection = require('./src/config/bDados'); 
 require('dotenv').config();
 
 // Importar rotas
