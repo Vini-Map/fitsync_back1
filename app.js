@@ -12,4 +12,4 @@ app.use(express.json()); // Middleware para interpretar JSON
 // Usar as rotas
 app.use('/api/users', userRoutes);
 
-module.exports = app; // Exporta a instância do app
+module.exports = app; 
